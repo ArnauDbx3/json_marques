@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catàleg JSON - Gamecamps</title>
+    <meta name="description" content="Carrega i visualitza el catàleg en format JSON mitjançant JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/LOGO.png">
+    <link rel="stylesheet" href="css/estils.css">
+    <script src="js/cataleg_json.js" defer></script>
+    <script src="js/tema.js" defer></script>
+</head>
+
+<body>
+    <!--Capçalera única per separar el header de la pàgina-->
+    <header class="main-header" id="capcalera">
+        <h1 class="logo" id="logo-botiga">
+            <a href="index.html">
+                <img src="img/LOGO.png" alt="Gamecamps logo">
+            </a>
+        </h1>
+        <nav id="menu-principal">
+            <ul class="menu-list">
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="fitxa.html">Fitxa</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+                <li><a href="cataleg_json.html">Catàleg JSON</a></li>
+            </ul>
+            <button type="button" id="boto-tema">Mode fosc</button>
+        </nav>
+    </header>
+
+    <main id="contingut-principal">
+        <!--JSON loader-->
+        <section id="seccio-cerca">
+            <header>
+                <h2 id="titol-botiga">Catàleg JSON</h2>
+            </header>
+            <div class="controls-cerca">
+                <label for="fitxer">Selecciona el fitxer JSON:<br></label>
+                <input type="file" id="fitxer" accept=".json">
+            </div><br>
+            <p id="comptador-resultats">Selecciona un fitxer JSON per carregar el catàleg.</p>
+        </section>
+
+        <!--Catàleg amb jocs-->
+        <section id="cataleg" class="cataleg-grid"></section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Gamecamps. Tots els drets reservats.<br>Totes les imatges són lliures de drets d'autor.</p>
+    </footer>
+</body>
+
+</html>
