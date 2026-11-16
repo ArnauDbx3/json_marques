@@ -1,4 +1,4 @@
-## Comparació entre convertidor automàtic i conversió manual
+## Comparació entre conversor automàtic i conversió manual
 Atributs marcats amb @, # i indexats dins altres elements. Nombres de preu, valoracio i estoc marcats com string. 
 Llistes com plataforma amb només un element sense ser llista (convertit amb w3schools) [XML to JSON Converter - W3Schools](https://www.w3schools.com/tools/tool_xml_json.php)
 
