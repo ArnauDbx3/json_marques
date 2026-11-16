@@ -13,3 +13,6 @@ hi ha 2 nivells d’indentació a tot el document, mentre que l’original dispo
 Al document hi havien diversos errors sintàctics, però la dada errònia que no donava problema de sintaxi era el preu `"24.99"`.
 Ja que es troba entre cometes, el valor no dona cap error, però això l'identifica com a string. Perquè sigui realment correcte
 s'ha d'escriure sense cometes perquè sigui interpretat com a nombre.
+
+## Càrrega de JSON erroni
+Al intentar carregar `cataleg_convertidor.json` a l'HTML apareix error i no funciona. Això es deu principalment als nombres que es tracten com a cadenes de text, els elements que haurien de ser llistes d'elements i les claus com @ i #.
