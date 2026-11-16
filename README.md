@@ -10,9 +10,13 @@ El document no validaria amb el DTD, ja que s’ha perdut tota l’estructura ge
 hi ha 2 nivells d’indentació a tot el document, mentre que l’original disposava de fins a 5.
 
 ## Validació i errors
-Al document hi havien diversos errors sintàctics, però la dada errònia que no donava problema de sintaxi era el preu `"24.99"`.
-Ja que es troba entre cometes, el valor no dona cap error, però això l'identifica com a string. Perquè sigui realment correcte
+Al document hi havien 6 errors sintàctics, i la dada errònia que no donava problema de sintaxi era el preu `"24.99"`.
+Com que es troba entre cometes, el valor no dona cap error, però això l'identifica com a string. Perquè sigui realment correcte
 s'ha d'escriure sense cometes perquè sigui interpretat com a nombre.
 
 ## Càrrega de JSON erroni
 Al intentar carregar `cataleg_convertidor.json` a l'HTML apareix error i no funciona. Això es deu principalment als nombres que es tracten com a cadenes de text, els elements que haurien de ser llistes d'elements i les claus com @ i #.
+
+## Creació de targetes
+La part de codi que s'encarrega de crear els jocs es realitza amb un forEach, on es crea una targeta per cada joc
+dins l'arxiu JSON.
