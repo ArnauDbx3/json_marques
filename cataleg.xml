@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tenda SYSTEM "RA4_Projecte_Fase_1_cataleg_Diaz_Arnau.dtd">
+    <!-- 
+    Catàleg de jocs clàssics amb informació detallada sobre cada títol. 
+    Les valoracions són sobre 5 estrelles. 
+    Alguns dels jocs es troben disponibles en algunes plataformes més modernes, ja en forma de remake o els originals. No s'han tingut en compte, ja que aquestes no es consideren retro.
+    -->
+
+<tenda tipus="retro">
+    <nom >Gamecamps</nom>
+    <divisa simbol="€">EUR</divisa>
+    <ultimaAct>2026-08-01</ultimaAct>
+
+    <cataleg>
+        <joc codi="JOC-001">
+            <nom>Super Mario World</nom>
+            <generes>
+                <genere>Acció</genere>
+                <genere>Plataformes</genere>
+                <genere>2D</genere>
+            </generes>
+            <plataformes>
+                <plataforma>Super Nintendo</plataforma>
+            </plataformes>
+            <preu>39.99</preu>
+            <valoracio>4.6</valoracio>
+            <estoc>9</estoc>
+            <dataSortida>1990-11-21</dataSortida>
+            <descripcio>Clàssic plataformes en 2D on Mario i Luigi exploren un mon ple de monstres, secrets i aventures per salvar la princesa Peach.</descripcio>
+        </joc>
+        <joc codi="JOC-002">
+            <nom>The Legend of Zelda: Ocarina of Time</nom>
+            <generes>
+                <genere>Aventura</genere>  
+                <genere>Acció</genere>
+                <genere>Trencaclosques</genere>
+                <genere>Fantasia</genere>
+                <genere>3D</genere>
+            </generes>
+            <plataformes>
+                <plataforma>Nintendo 64</plataforma>
+            </plataformes>
+            <preu>49.99</preu>
+            <valoracio>&masterpiece;</valoracio>
+            <estoc>5</estoc>
+            <dataSortida>1998-11-21</dataSortida>
+            <descripcio>Una aventura revolucionària que va definir el gènere d'acció-aventura en 3D, on el seu protagonista viatja a través del temps per salvar el regne d'Hyrule i derrotar el malvat Ganondorf.</descripcio>
+        </joc>
+        <joc codi="JOC-003">
+            <nom>Final Fantasy VII</nom>
+            <generes>
+                <genere>Rol</genere>
+                <genere>Aventura</genere>
+                <genere>Fantasia</genere>
+                <genere>JRPG</genere>
+                <genere>3D</genere>
+            </generes>
+            <plataformes>
+                <plataforma>PlayStation</plataforma>
+            </plataformes>
+            <preu>49.99</preu>
+            <valoracio>4.9</valoracio>
+            <estoc>23</estoc>
+            <dataSortida>1997-01-31</dataSortida>
+            <descripcio>Un JRPG històric protagonitzat per Cloud Strife i un grup ecoterrorista que lluiten per salvar el món d'una corporació malvada i un enemic antic.</descripcio>
+        </joc>
+        <joc codi="JOC-004">
+            <nom>Lylat Wars</nom>
+            <generes>
+                <genere>Acció</genere>
+                <genere>Ciència ficció</genere>
+                <genere>Shoot'em up</genere>
+            </generes>
+            <plataformes>
+                <plataforma>Nintendo 64</plataforma>
+            </plataformes>
+            <preu>29.99</preu>
+            <valoracio>4.4</valoracio>
+            <estoc>12</estoc>
+            <dataSortida>1997-04-27</dataSortida>
+            <descripcio>Un shooter espacial sobre raïls on en Fox McCloud i el seu equip piloten les naus per defensar el sistema Lylat de les forces d'Andross.</descripcio>
+        </joc>
+        <joc codi="JOC-005" sequelaDe="JOC-002">
+            <nom>The Legend of Zelda: Majora's Mask</nom>
+            <generes>
+                <genere>Aventura</genere>  
+                <genere>Acció</genere>
+                <genere>Trencaclosques</genere>
+                <genere>Fantasia</genere>
+                <genere>3D</genere>
+            </generes>
+            <plataformes>
+                <plataforma>Nintendo 64</plataforma>
+            </plataformes>
+            <preu>49.99</preu>
+            <valoracio>4.8</valoracio>
+            <estoc>9</estoc>
+            <dataSortida>2000-04-27</dataSortida>
+            <descripcio>Una continuació fosca i melancòlica d'Ocarina of Time on en Link disposa de 3 dies per evitar que la Lluna caigui sobre el regne de Termina, utilitzant màscares màgiques per transformar-se i resoldre trencaclosques.</descripcio>
+        </joc>
+        <joc codi="JOC-006">
+            <nom>Super Mario 64</nom>
+            <generes>
+                <genere>Acció</genere>
+                <genere>Plataformes</genere>
+                <genere>3D</genere>
+                <genere>Aventura</genere>
+            </generes>
+            <plataformes>
+                <plataforma>Nintendo 64</plataforma>
+            </plataformes>
+            <preu>49.99</preu>
+            <valoracio>&masterpiece;</valoracio>
+            <estoc>15</estoc>
+            <dataSortida>1996-06-23</dataSortida>
+            <descripcio>El joc que va establir les bases dels plataformes en 3D, destacant per la seva kinestètica i un disseny de nivells totalment innovador.</descripcio>
+        </joc>
+        <joc codi="JOC-007">
+            <nom>Donkey Kong Country</nom>
+            <generes>
+                <genere>Acció</genere>
+                <genere>Plataformes</genere>
+                <genere>2D</genere>
+            </generes>
+            <plataformes>
+                <plataforma>Super Nintendo</plataforma>
+                <plataforma>Game Boy Advance</plataforma>
+                <plataforma>Game Boy Color</plataforma>
+            </plataformes>
+            <preu>39.99</preu>
+            <valoracio>4.7</valoracio>
+            <estoc>10</estoc>
+            <dataSortida>1994-11-21</dataSortida>
+            <descripcio>Plataformes 2D aclamat pels seus revolucionaris gràfics pre-renderitzats i una banda sonora memorable, on en Donkey Kong &amp; en Diddy Kong lluiten per recuperar la seva reserva de plàtans</descripcio>
+        </joc>
+        <joc codi="JOC-008">
+            <nom>Castlevania: Symphony of the Night</nom>
+            <generes>
+                <genere>Acció</genere>
+                <genere>Plataformes</genere>
+                <genere>Rol</genere>
+                <genere>Metroidvania</genere>
+            </generes>
+            <plataformes>
+                <plataforma>PlayStation</plataforma>
+                <plataforma>Sega Saturn</plataforma>
+            </plataformes>
+            <preu>49.99</preu>
+            <valoracio>4.9</valoracio>
+            <estoc>8</estoc>
+            <dataSortida>1997-10-31</dataSortida>
+            <descripcio>El joc que va definir i perfeccionar el gènere "Metroidvania", amb un món interconnectat, exploració profunda i una combinació de plataformes i acció amb elements de rol.</descripcio>
+        </joc>    
+    </cataleg>
+</tenda>
